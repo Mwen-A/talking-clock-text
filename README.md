@@ -1,4 +1,4 @@
-## Setup
+## Info
 
 ### Prerequisites 
 - Create a virtual environment `python -m venv ./venv`, `source ./venv/bin/activate` or `source ./venv/Scripts/activate`

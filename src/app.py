@@ -4,8 +4,8 @@ import argparse
 
 
 def with_user_input(user_time: str) -> str:
-    """Accepts time as a user input and returns the time in 'human-friendly' text
-    as a multiple of five. With incorrect input it returns a string describing the accepted format
+    """Accepts time through user input and returns the time in human-friendly text with the minutes
+    as a multiple of five. Incorrect input returns a string describing the accepted format
 
     Parameters: Time in the format HH:MM
     Returns: The time in 'human-friendly' text or formatting suggestions

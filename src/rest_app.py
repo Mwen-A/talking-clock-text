@@ -6,8 +6,8 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET', 'POST'])
 def request_times() -> json:
-    """GET request returns the current time in human-friendly text, and the POST request
-    gets the time as a user input and returns that specific time as human-friendly text
+    """GET requests return the current time in human-friendly text, the POST request
+    gets the time through user input and returns the time in a human-friendly text
 
     Parameters: Time in the format HH:MM (POST request only)
     Returns: Time in human friendly text or formatting suggestions (POST request only)

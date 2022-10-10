@@ -27,7 +27,7 @@ def reformat_time(current_time: str) -> str:
 
 
 def sentence_construction(updated_time: str) -> str:
-    """Converts the time to 'human-friendly' text
+    """Converts the time to human-friendly text
 
     Parameters: Time in the format HH:MM with minutes divisible by 5
     Returns: Time in human-friendly text
